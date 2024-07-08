@@ -1,0 +1,97 @@
+/* Reset styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.info {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.info-section {
+    margin-bottom: 20px;
+}
+
+.section-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.screenshot {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.driver-info {
+    margin-top: 20px;
+}
+
+.driver-list {
+    display: flex;
+    justify-content: center;
+}
+
+.driver {
+    margin-right: 10px;
+}
+
+.driver-name {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.track-btn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.track-btn:hover {
+    background-color: #218838;
+}
+
+.hidden {
+    display: none;
+}

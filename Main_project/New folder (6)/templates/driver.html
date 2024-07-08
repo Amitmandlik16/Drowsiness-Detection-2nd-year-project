@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drowsiness Detection System</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .heading {
+            text-align: center;
+        }
+
+        .info {
+            text-align: justify;
+        }
+
+        .info-section {
+            margin-top: 30px;
+        }
+
+        .section-heading {
+            text-align: center;
+        }
+
+        .driver-info {
+            margin-top: 30px;
+        }
+
+        /* Button Styles */
+        .btn, .track-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover, .track-btn:hover {
+            background-color: #0056b3;
+        }
+
+        /* Driver List Styles */
+        .driver {
+            margin-bottom: 10px;
+        }
+
+        .driver-name {
+            margin: 0;
+        }
+
+        /* Hide/Show Styles */
+        .hidden {
+            display: none;
+        }
+
+        /* Screenshot Image Styles */
+        .screenshot {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1 class="heading">Drowsiness Detection System</h1>
+    
+    <p class="info">The Drowsiness Detection System is designed to monitor drivers' alertness and prevent accidents caused by drowsiness. It uses facial recognition technology to detect signs of drowsiness, such as closed eyes or yawning, and alerts the driver to take a break.</p>
+
+    <div class="info-section">
+        <h2 class="section-heading">Program Screenshot</h2>
+        <!-- Placeholder for image/screenshot of the program -->
+        <img src="placeholder-image.jpg" alt="Program Screenshot" class="screenshot">
+    </div>
+
+    <a href="/graph">
+        <button class="track-btn">show bar graph</button>
+    </a>
+    <a href="/showall">
+        <button class="track-btn">show all driver data</button>
+    </a>
+    <!-- Placeholder for displaying driver information -->
+    <div id="driver-info" class="driver-info">
+        <h2 class="section-heading">Driver Information</h2>
+        <div class="driver-list">
+            <!-- Placeholder for displaying individual driver information -->
+            <div class="driver">
+                <h3 class="driver-name">Vedant's data</h3>
+                <a href="/show/1">
+                    <button class="track-btn">Track</button>
+                </a>
+            </div>
+            <div class="driver">
+                <h3 class="driver-name">Amit's data</h3>
+                <a href="/show/2">
+                    <button class="track-btn">Track</button>
+                </a>
+            </div>
+            <div class="driver">
+                <h3 class="driver-name">Kaustubh's data</h3>
+                <a href="/show/3">
+                    <button class="track-btn">Track</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
